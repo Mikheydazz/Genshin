@@ -99,7 +99,6 @@ letter-spacing: 0.1em;
 color: #FFFFFF;
 background: #d49655;
 border-style: none;
-padding: 15px 35px;
 }
 
 .nav_link:hover {
@@ -325,3 +324,194 @@ color: #FFFFFF;
 }
 
 /*-------Arrow-end------*/
+
+.burger_button{
+}
+
+.burger{
+	border: none;
+	display: none;
+}
+
+.burger_line{
+	background-color: #000000;
+	height: 9px;
+	width: 54px;
+	margin-top: 8px;
+}
+
+
+@media (max-width: 834px) {
+
+.box{
+	max-width: 630px;
+	margin: 0 auto;
+	}
+/*-------Header-start------*/
+
+.head_box{
+	flex-direction: column;
+}
+.logo{
+	text-align: center;
+	margin: 0 auto;
+}
+.logo_img{
+	margin: 0 auto;
+}
+
+.nav_link{
+	text-decoration: none;
+	color:black;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 26px;
+	letter-spacing: 0.1em;
+
+}
+.nav_list{
+	text-align: center;
+	margin:0 auto;
+	padding: 0;
+}
+
+.nav_item{
+	margin: 0 auto;
+}
+
+.shapka{
+	padding-bottom: 32px;
+}
+/*-------Header-end------*/
+
+/*-------Opis-start------*/
+.opis{
+	flex-direction: column;
+}
+.title_genshin{
+	text-align: center;
+}
+.opisanie_genshin{
+	max-width: 496px;
+	text-align: center;
+	margin: 0 auto;
+}
+.butt{
+	text-align: center;
+}
+.underlogo{
+	margin: 0 auto;
+}
+
+/*-------Opis-end------*/
+
+/*-------Rates-start------*/
+.rateimgdiv{
+	display: none;
+}
+.rateimg{
+	display: none;
+}
+.star{
+	display: none;
+}
+.rates_two{
+	display: none;
+}
+.poloski{
+	margin: 0 auto;
+}
+/*-------Rates-end------*/
+
+/*-------video-start------*/
+.obzor{
+	padding-top: 50px;
+	margin-top: 71px;
+}
+.YouTubeVideo{
+	max-width: 570px;
+	max-height: 330px;
+	margin: 0 auto;
+	display: block;
+}
+/*-------video-end------*/
+.itemGal{
+	width: 50%;
+}
+
+.ArrowUp{
+	max-width: 40px;
+	right: 30px;
+}
+
+}
+@media (max-width: 450px){
+
+.box{
+max-width: 360px;
+margin: 0 auto;
+}
+
+.burger{
+	display: block;
+	width: 80px;
+	margin-left: 30px;
+}
+.logo{
+	text-align: none;
+	max-width: 191px;
+	margin: 0 0;
+}
+.logo_img{
+	max-width: 191px;
+}
+.menu{
+	display: none;
+}
+
+.underlogo{
+	max-width: 300px;
+}
+.head_box{
+	display: flex;
+	flex-direction: row;
+}
+.button{
+	padding: 12px;
+}
+.bar{
+	max-width: 258px;
+}
+.YouTubeVideo{
+	max-width: 287px;
+	max-height: 183px;
+	margin: 0 auto;
+	display: block;
+}
+.basement{
+	max-height: 10px;
+}
+.copy1{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+padding:0;
+color: #FFFFFF;
+}
+.copy2{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+.Soc{
+	max-width: 25px;
+}
+}
