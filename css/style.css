@@ -84,6 +84,16 @@ border-style: none;
 padding: 15px 35px;
 margin-top: 60px;
 }
+.about{
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 164.06%;
+margin-bottom: 71px;
+}
 .button:hover{
 		font-family: 'Roboto';
 font-style: normal;
@@ -340,8 +350,40 @@ color: #FFFFFF;
 	margin-top: 8px;
 }
 
+.genshin_bold{
+	font-family: 'Roboto';
+font-style: bold;
+font-weight: 500;
+font-size: 24px;
+line-height: 164.06%;
+}
+
+.about_text{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 164.06%;
+margin-top: 25px;
+}
+
+.aboutimg{
+	max-height: 591px;
+	max-width: 317px;
+}
+.about_game{
+	display: flex;
+	flex-direction: row;
+}
+.button_about{
+	display: none;
+}
 
 @media (max-width: 834px) {
+
+.aboutimg{
+	display: none;
+}
 
 .box{
 	max-width: 630px;
@@ -448,6 +490,11 @@ color: #FFFFFF;
 
 }
 @media (max-width: 450px){
+
+.button_about{
+	text-align: center;
+	display: block;
+}
 
 .box{
 max-width: 360px;
